@@ -1,8 +1,8 @@
 # APIchuck
 
-## Jefferson Eduardo Santos Lima 
+## Autor
 
-Seu Nome Completo
+Jefferson Eduardo Santos Lima 
 
 ## Descrição
 
