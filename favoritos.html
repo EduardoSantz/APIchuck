@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Favoritos - Chuck Norris</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png"
+           alt="Chuck Norris Logo" class="main-logo">
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+
+    <section class="favorites-section">
+      <h2> Piadas Favoritas</h2>
+      <div id="favorites-list"></div>
+      
+      <template id="favorite-template">
+        <div class="favorite-item">
+          <div class="favorite-content">
+            <img class="favorite-img" src="" alt="Favorito">
+            <p class="favorite-text"></p>
+          </div>
+          <button class="delete-btn">Remover</button>
+        </div>
+      </template>
+    </section>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
